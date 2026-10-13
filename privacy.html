@@ -1,0 +1,43 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta name="description" content="Privacy policy for Repo Fleet Archive Backup and its proposed Google Drive integration.">
+  <title>Privacy Policy — Repo Fleet Archive Backup</title>
+  <style>
+    body{margin:0;background:#f7f9fb;color:#182538;font:16px/1.75 system-ui,-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif}
+    header,main,footer{width:min(790px,calc(100% - 40px));margin:auto}header{padding:28px 0 18px;display:flex;gap:22px;flex-wrap:wrap;justify-content:space-between}
+    main{background:white;border:1px solid #e2e8ef;border-radius:15px;padding:clamp(23px,5vw,45px)}
+    h1{font-size:36px;line-height:1.2;letter-spacing:-.035em}h2{font-size:20px;margin-top:34px;letter-spacing:-.02em}
+    p,li{color:#384a60}a{color:#136a68;text-underline-offset:3px}footer{padding:25px 0;color:#5d6b7a;font-size:13px}
+    .brand{font-weight:760;text-decoration:none}.flag{background:#edf7f6;border-left:4px solid #136a68;padding:12px 16px}
+  </style>
+</head>
+<body>
+<header><a class="brand" href="/">Repo Fleet Archive Backup</a><nav><a href="/">Overview</a> · <a href="/terms.html">Terms</a></nav></header>
+<main>
+  <h1>Privacy Policy</h1>
+  <p><strong>Last updated:</strong> 14 October 2026.</p>
+  <p class="flag"><strong>Current status:</strong> Public documentation only. The proposed automatic backup and associated production Google Drive OAuth data processing are not activated.</p>
+  <h2>1. What this utility is for</h2>
+  <p>Repo Fleet Archive Backup is an owner-operated research-evidence preservation utility being developed to copy and verify selected GitHub research artifacts into an owner-selected private Google My Drive location. It is not a public research platform, trading app, or consumer data collection service.</p>
+  <h2>2. Google account access, if you opt in</h2>
+  <p>The intended permission is <code>https://www.googleapis.com/auth/drive.file</code>. If activated after separate testing and owner consent, the tool would access only the Google Drive files and folders made available to it through this permission, including files it creates. This permission does not automatically grant access to every existing file or folder in Google Drive.</p>
+  <p>Google account authorization occurs on Google's own consent pages. This public documentation site does not request or collect Google account passwords or OAuth codes.</p>
+  <h2>3. Research data and technical records</h2>
+  <p>If activated, the tool is intended to process selected source research ZIP archives and evidence records from the owner's GitHub repositories, including run and artifact identities, timestamps, original content hashes, CRC/integrity checks and custody receipts. Some archived research may contain private material. The archive destination must remain private to the owner or explicitly authorized collaborators.</p>
+  <p>The information would be used solely to perform backup, integrity verification, replay/audit support and related owner-directed recovery. It would not be sold, used for advertising, or deliberately published on this website.</p>
+  <h2>4. Storage and third parties</h2>
+  <p>The proposed private archive location is the owner's Google My Drive; technical executions may run through owner-controlled GitHub Actions subject to separate approval. Google Drive and GitHub apply their own platform security, logging, privacy, and retention terms. No automated production transfer is enabled as of this policy's date. This public website is hosted by GitHub Pages and contains no custom analytics, sign-in form or tracking scripts, although the hosting service may process normal web-server request information under its own policies.</p>
+  <h2>5. Credential protection and retention</h2>
+  <p>Any future OAuth refresh token or client configuration would be stored only in an authorized secure credential store, not embedded in this public repository, a webpage, or a research receipt. The proposed tool must preserve original artifact identifiers and enforce verification before treating a backup as complete. Retention changes or deleting original GitHub evidence require a separate owner decision; this site grants no such authority.</p>
+  <h2>6. Control and deletion</h2>
+  <p>The owner may decline consent, revoke an authorization in their <a href="https://myaccount.google.com/connections">Google Account connections</a>, or delete their own stored backup files through Google Drive. Revoking access prevents new API operations but does not automatically erase previously stored copies. Copies and technical audit history must be handled under the owner's retention and evidence-custody rules.</p>
+  <h2>7. Changes and contact</h2>
+  <p>This policy will be updated before activating any materially different processing, data sharing or permission scope. For a non-sensitive query about this documentation, use the <a href="https://github.com/logcheung1986/logcheung1986.github.io/issues">public repository issue tracker</a>. Do not include private research, credentials, OAuth codes, account numbers or personally sensitive information in public issues.</p>
+  <p lang="zh-Hant"><strong>繁體中文摘要：</strong>本工具只擬用於備份擁有人明確授權嘅研究檔案。網站唔會接收 Google 密碼或公開研究檔案；正式自動備份目前未啟用。未經另外批准，不會刪除原始證據、啟用交易或擴大 Google Drive 權限。</p>
+</main>
+<footer><a href="/">Back to overview</a> · © 2026 Repo Fleet Archive Backup</footer>
+</body>
+</html>
